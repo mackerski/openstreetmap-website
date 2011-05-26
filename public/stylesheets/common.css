@@ -227,6 +227,15 @@ hr {
   padding-bottom: 6px;
 }
 
+#search_form
+{
+  z-index: 3000;
+  float: right;
+  position: absolute;
+  left: auto;
+  right: 0px;
+}
+
 #search_field form {
   width: 100%;
   margin: 0px;

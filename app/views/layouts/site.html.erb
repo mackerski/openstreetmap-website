@@ -9,6 +9,7 @@
     <div id="content">
       <%= render :partial => "layouts/flash", :locals => { :flash => flash } %>
 
+      <%= yield :searchform %>
       <%= yield %>
     </div>
 
