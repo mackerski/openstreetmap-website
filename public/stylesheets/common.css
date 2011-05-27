@@ -243,11 +243,11 @@ hr {
 }
 
 #search_field input[type="text"] {
-  width: 136px;
+  width: 126px;
 }
 
 #search_field input[type="submit"] {
-  width: 26px;
+  width: 42px;
   padding-left: 0px;
   padding-right: 0px;
 }

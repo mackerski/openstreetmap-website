@@ -64,8 +64,6 @@
 
 <% content_for "searchform" do %>
   <div id="search_form" class="optionalbox">
-    <span class="whereami"><a href="javascript:describeLocation()" title="<%= t 'site.search.where_am_i_title' %>"><%= t 'site.search.where_am_i' %></a></span>
-    <h1><%= t 'site.search.search' %></h1>
     <div class="search_container">
     <div id="search_field">
     <% form_remote_tag(:before => "setSearchViewbox()",
